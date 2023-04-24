@@ -1,0 +1,17 @@
+.body-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+.list-container{
+  background-color:#d7e7d8;
+  margin: 10px;
+  list-style-type: none;
+  border-color: black;
+  border-width: 2px;
+  border-style: dashed;
+  height: 80px;
+  width: 200px;
+  padding:10px
+}
