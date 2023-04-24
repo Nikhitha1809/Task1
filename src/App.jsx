@@ -5,7 +5,7 @@ import data from'./message.json';
 function App() {
   return (
     <>
-     <h1>List of messages</h1>
+     <h1 className="heading">List of messages</h1>
       <div className='body-container'>    
         {data.map(msg=>
         <ul className='list-container'>
