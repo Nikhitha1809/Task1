@@ -5,8 +5,8 @@ import data from'./message.json';
 function App() {
   return (
     <>
-      <div className='body-container'>
-        <h1>List of messages</h1>
+     <h1>List of messages</h1>
+      <div className='body-container'>    
         {data.map(msg=>
         <ul className='list-container'>
           <li><strong>ID: </strong> {msg.id}</li>
